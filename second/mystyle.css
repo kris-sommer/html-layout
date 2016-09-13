@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  min-height: 200vh;
+  border: solid;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  width: 33.3%;
+  background-color: rgb(69, 134, 223);
+}
+
+.center {
+  width: 33.3%;
+  background-color: rgb(79, 228, 189);
+}
+
+.right {
+  width: 33.3%;
+  background-color: rgb(180, 235, 127);
+}
+
+.place-holder {
+  width: 33%;
+  background-color: red;
+  height: 30vh;
+  position:absolute; bottom:0;
+  margin-bottom: -101.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5vh;
+  position: absolute;
+ }
+
+
+.text {
+  color: white;
+  text-align: center;
+  padding-top: 15%;
+  font-family: sans-serif;
+  font-size: 3vw;
+
+}

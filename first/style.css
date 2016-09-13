@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  min-height: 800px;
+  background-color: rgb(238, 238, 238);
+  position: relative;
+}
+
+.top {
+  background-color: rgb(60, 60, 60);
+  height: 123px;
+  width: 100%;
+  position: relative;
+}
+
+.left {
+  background-color: rgb(213, 213, 213);
+  height: 500px;
+  width: 10%;
+  display: inline-block;
+  float: left;
+
+
+
+}
+
+.right {
+  background-color: rgb(213, 213, 213);
+  height: 500px;
+  width: 10%;
+  display: inline-block;
+  float: right;
+
+}
+
+.outter {
+  display: inline-block;
+  width: 80%;
+}
+
+.inner {
+  height: 460px;
+}
+
+.bottom {
+  background-color: rgb(28, 28, 28);
+  height: 40px;
+  width: 30%;
+  display: inline-block;
+  width: 100%;
+  vertical-align: baseline;
+
+
+
+
+
+
+}
